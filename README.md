@@ -9,7 +9,6 @@
 - Results
 - Conclusions
 - Next Steps
-- Repository Structure
   
 ## Business Overview
 The telecommunications industry is a highly competitive landscape where customer retention plays a crucial role in a company's success. Customer churn, defined as the loss of subscribers to a competitor or service termination, poses a significant financial challenge for telecommunications companies. SyriaTel, a leading telecommunications provider, is no exception. To maintain a competitive edge and minimize revenue loss, SyriaTel requires a robust system to predict customer churn and implement targeted retention strategies.
@@ -70,3 +69,7 @@ Implementation of a fixed charge for those who go over 700 minutes at a price of
 In conclusion, leveraging our logistic regression model, we've gained insights into predicting customer churn and informing retention strategies for our telecom service. Firstly, by capping the customer_call_satisfaction feature at the 75th percentile (0.72), we observed a predicted overall churn rate of approximately 25.50%. This suggests that addressing factors contributing to lower customer satisfaction could substantially impact churn reduction.
 
 Secondly, when capping total_minutes_overall at the 50th percentile (around 700 minutes) and implementing a charge of $71.05 per minute for usage beyond this threshold, our model predicts a churn value of 0, indicating that customers are unlikely to churn under these conditions. Implementing targeted strategies, such as fixed charges for excess usage, based on these insights can significantly contribute to customer retention efforts. However, continuous monitoring and adaptation of strategies remain crucial for maintaining customer satisfaction and loyalty amidst evolving preferences and market dynamics.
+
+## Next Steps
+
+Conduct further market research on pricing plans can be conducted across SyriaTel's main competitors. In order to further improve on lowering the churn rate across all customers, we would need to collect more data from users. One way to implement a next step is to conduct a customer satisfaction survey to pinpoint more specifically other areas that can be improved upon in order to provide better customer experiences for all SyriaTel users.
