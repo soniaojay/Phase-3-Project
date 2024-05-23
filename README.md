@@ -44,7 +44,7 @@ Predictors or Independent Variables:
 - total international charge: total amount of money the user was charged by the Telecom company for international calls made.
 - number customer service calls made: number of customer service calls the user has made.
   
-## Analysis
+## Modeling
 To achieve the research goal of predicting customer churn, i first analyzed the existing churn rate in the dataset, which revealed a churn rate of 14.49%. With a clear understanding of the overall churn rate, aimed to pinpoint which features of a customer's phone plan are most influential in their decision to churn. After identifying these key features, my next step was to develop strategies to address them and reduce churn. Finally, this research sought to give recommendations and solutions before implementing them nationwide.
 
 To build a classifier to predict whether a customer will churn from SyriaTel, three models were used to aid in the prediction:
@@ -70,6 +70,4 @@ In conclusion, leveraging our logistic regression model, we've gained insights i
 
 Secondly, when capping total_minutes_overall at the 50th percentile (around 700 minutes) and implementing a charge of $71.05 per minute for usage beyond this threshold, our model predicts a churn value of 0, indicating that customers are unlikely to churn under these conditions. Implementing targeted strategies, such as fixed charges for excess usage, based on these insights can significantly contribute to customer retention efforts. However, continuous monitoring and adaptation of strategies remain crucial for maintaining customer satisfaction and loyalty amidst evolving preferences and market dynamics.
 
-## Next Steps
-
-Conduct further market research on pricing plans can be conducted across SyriaTel's main competitors. In order to further improve on lowering the churn rate across all customers, we would need to collect more data from users. One way to implement a next step is to conduct a customer satisfaction survey to pinpoint more specifically other areas that can be improved upon in order to provide better customer experiences for all SyriaTel users.
+Next step is to Conduct further market research on pricing plans can be conducted across SyriaTel's main competitors. In order to further improve on lowering the churn rate across all customers, we would need to collect more data from users. One way to implement a next step is to conduct a customer satisfaction survey to pinpoint more specifically other areas that can be improved upon in order to provide better customer experiences for all SyriaTel users.
