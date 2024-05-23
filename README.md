@@ -19,9 +19,10 @@ The loss of subscribers to competitors or service termination, is a major financ
 Customer churn is a significant financial burden for telecommunications companies like SyriaTel. The inability to accurately predict churn hinders the development of effective retention strategies.Churn rate is very important because it is typically more expensive to obtain new customers than to retain existing customer. This research aims to address this problem by building a machine learning classifier to predict customer churn for SyriaTel inorder to improve their churn rate.
 
 ## Data Understanding
-The dataframe used entails SyriaTel customer usage pattern and their churn status from [Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset). The data included ~The dataset has 3,333 customers and 20 columns with no null values and a mix of data types. The data include:
-The Target or Dependent Variable: 
-**Churn**: the number of existing customers who may leave the service provider over a given period.
+The dataframe used entails SyriaTel customer usage pattern and their churn status from [Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset). 
+The data included ~The dataset has 3,333 customers and 20 columns with no null values and a mix of data types. 
+The data include:
+The Target or Dependent Variable: **Churn**: the number of existing customers who may leave the service provider over a given period.
 Predictors or Independent Variables: 
 - account length: the number of days the user maintains a phone plan account.
 - area code: the region where the user is located.
