@@ -5,10 +5,9 @@
 - Business Overview
 - Business Problem
 - Data Understanding
-- Analysis
-- Results
+- Modeling
+- Evaluation and Result Findings
 - Conclusions
-- Next Steps
   
 ## Business Overview
 The telecommunications industry is a highly competitive landscape where customer retention plays a crucial role in a company's success. Customer churn, defined as the loss of subscribers to a competitor or service termination, poses a significant financial challenge for telecommunications companies. SyriaTel, a leading telecommunications provider, is no exception. To maintain a competitive edge and minimize revenue loss, SyriaTel requires a robust system to predict customer churn and implement targeted retention strategies.
